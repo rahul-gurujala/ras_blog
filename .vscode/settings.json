@@ -8,5 +8,12 @@
         "**/requirements{/**,*}.{txt,in}": "pip-requirements"
     },
     // Following setting is for enable html suggetions which is disabled by above extension
-    "emmet.includeLanguages": {"django-html": "html"}
+    "emmet.includeLanguages": {"django-html": "html"},
+    "beautify.language": {
+        "html": [
+            "htm",
+            "html",
+            "django-html"
+        ]
+    },
 }
